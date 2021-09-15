@@ -23,7 +23,6 @@ justify-content: center;
 }
 
 form{
-    border: 1px solid;
     height: auto;
     width: auto;
     position: absolute;
@@ -64,4 +63,28 @@ select{
 
 .left{
     float: left;
+}
+
+table{
+    margin-top: 50px;;
+    text-align: left;
+    width: 100%;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    font-size: 1em;
+    background-color: rgb(161, 253, 132);
+    border-radius: 5px;
+    border: 1px solid;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(46, 45, 45, 0.7);
+}
+
+button:hover{
+    border-color: blue;
+    cursor: pointer;
+    color:grey;
 }
